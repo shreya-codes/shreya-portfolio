@@ -5,7 +5,7 @@ const Nav = () => {
   console.log(NavItems, "====================");
   return (
     <header>
-      <img src="/images/shreyaLogo.png" alt="shreya" />
+      <img src="public/images/shreyaLogo.png" alt="shreya" />
       <nav>
         <ul>
           {NavItems.map((item, index) => {
